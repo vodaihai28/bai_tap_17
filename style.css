@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f5f5f5;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+.wheel {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 60px auto;
+    border-radius: 50%;
+}
+
+.wheel img {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+}
